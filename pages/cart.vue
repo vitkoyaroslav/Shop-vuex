@@ -1,13 +1,19 @@
 <template>
-    $END$
+    <section class="container">
+        <BasketList/>
+    </section>
 </template>
 
 <script>
+    import BasketList from "../components/BasketList";
+
     export default {
-        name: "cart"
+        components: { BasketList },
+        head () {
+            return {
+                title: 'Cart',
+            }
+        },
     }
 </script>
 
-<style scoped>
-
-</style>

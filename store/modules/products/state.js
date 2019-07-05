@@ -3,7 +3,8 @@ export default {
         {
             title: 'Колбаса',
             price: 20,
-            id: 1
+            id: 1,
+            picture: '/sausage.jpg',
         },
         {
             title: 'Сыр',
